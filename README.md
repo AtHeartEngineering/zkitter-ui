@@ -1,9 +1,9 @@
-# Autism UI
+# Zkitter UI
 
-[![Build](https://github.com/autism-org/ui/actions/workflows/build.yml/badge.svg)](https://github.com/autism-org/ui/actions/workflows/build.yml)
+[![Build](https://github.com/zkitter/ui/actions/workflows/build.yml/badge.svg)](https://github.com/zkitter/ui/actions/workflows/build.yml)
 [![Discord](https://img.shields.io/discord/887573677959417889)](https://discord.com/invite/GVP9MghwXc)
 
-This repo is home to website [auti.sm](https://auti.sm).
+This repo is home to website [zkitter.com](https://zkitter.com).
 
 ## Requirements
 - Node 12.22+
@@ -12,16 +12,16 @@ This repo is home to website [auti.sm](https://auti.sm).
 ### Configurations
 You can set configuration using environment variable or by creating a `config.prod.json` or `config.dev.json` file. You can see a sample of the config file [here](./config.sample.json).
 
-| Name | Description |  
-| ------------- |-------------| 
+| Name | Description |
+| ------------- |-------------|
 | `WEB3_HTTP_PROVIDER` | a valid Http provider (e.g. `https://mainnet.infura.io/v3/<project-id>`) |
 | `ENS_RESOLVER` | contract address for ENS Public Resolver |
 | `GUN_PEERS` | Seed peers to connect to for GunDB. |
 | `ARB_HTTP_PROVIDER` | a valid Http provider to Arbitrum network (e.g. `https://arbitrum.infura.io/v3/<project-id>`). |
-| `ARB_REGISTRAR` | Contract address for the [Autism registration contract](https://github.com/autism-org/contracts). |
+| `ARB_REGISTRAR` | Contract address for the [Zkitter registration contract](https://github.com/zkitter/contracts). |
 | `ARB_ADDRESS` | The Arbitrum address to be used to fund onboarding. |
 | `BASE_URL` | Base URL to the server. |
-| `INDEXER_API` | URL to [Autism API](https://docs.auti.sm/developers/api). |
+| `INDEXER_API` | URL to [Zkitter API](https://docs.zkitter.com/developers/api). |
 | `INTERREP_API` | URL to [Interep API](https://docs.interep.link/api). |
 
 ## Build Instructions
