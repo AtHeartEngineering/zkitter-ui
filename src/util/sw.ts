@@ -38,7 +38,7 @@ export async function postWorkerMessage<data>(workerAction: WorkerAction<any>): 
     return new Promise((resolve, reject) => {
         navigator.serviceWorker.controller?.postMessage({
             ...workerAction,
-            target: 'autism-web',
+            target: 'zkitter-web',
             nonce: nonce,
         });
 

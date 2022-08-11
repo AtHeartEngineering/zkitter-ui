@@ -144,7 +144,7 @@ function WelcomeView(props: { setViewType: (v: ViewType) => void}): ReactElement
                 <div className="text-xl font-semibold">Connect your Twitter account</div>
             </div>
             <div className="my-4">
-                Connect your Twitter account to mirror your post to your Twitter feed, and allow Autism users to discover your profile by your Twitter handle.
+                Connect your Twitter account to mirror your post to your Twitter feed, and allow Zkitter users to discover your profile by your Twitter handle.
             </div>
             <div className="flex-grow flex flex-row mt-8 flex-nowrap items-end justify-center">
                 <Button
@@ -180,7 +180,7 @@ function VerifyView(props: {
     const history = useHistory();
     const user = useUser(selected?.address);
     const existingUser = useUser(existing)
-    const status = `I am verifying my account on #autism\nhttps://auti.sm/${account}/`;
+    const status = `I am verifying my account on #zkitter\nhttps://Zkitter.com/${account}/`;
 
     useEffect(() => {
         (async () => {
@@ -326,7 +326,7 @@ function VerifyView(props: {
                     selected?.type !== 'gun'
                         ? (
                             <div>
-                                {`Please first login to Autism before continuing.`}
+                                {`Please first login to Zkitter before continuing.`}
                             </div>
                         )
                         : (

@@ -33,7 +33,7 @@ async function getApp(): Promise<AppService> {
     return appStartPromise;
 }
 
-const cacheName = 'autism-pwa-v3';
+const cacheName = 'zkitter-pwa-v3';
 const filesToCache = [
     '/index.html',
     '/app.js',
@@ -72,7 +72,7 @@ global.addEventListener('activate', (e) => {
 global.addEventListener('message', async (e) => {
     const action: WorkerAction<any> = e.data;
 
-    if (!action || action.target !== 'autism-web' || !e.source) {
+    if (!action || action.target !== 'zkitter-web' || !e.source) {
         return;
     }
 

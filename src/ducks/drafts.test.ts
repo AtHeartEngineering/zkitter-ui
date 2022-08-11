@@ -47,7 +47,7 @@ describe('Drafts Duck', () => {
             type: 'interrep',
             address: '0xmyaddress',
             nonce: 0,
-            provider: 'autism',
+            provider: 'zkitter',
             name: 'diamond',
             identityPath: {
                 path_elements: ['0x0', '0x1'],
@@ -95,7 +95,7 @@ describe('Drafts Duck', () => {
         const identityCommitment = '0x' + zkIdentity.genIdentityCommitment().toString(16);
         store.dispatch(setSelectedId({
             type: 'zkpr_interrep',
-            provider: 'autism',
+            provider: 'zkitter',
             name: 'diamond',
             identityPath: {
                 path_elements: ['0x0', '0x1'],

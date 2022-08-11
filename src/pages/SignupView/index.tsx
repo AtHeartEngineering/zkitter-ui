@@ -103,10 +103,10 @@ function WelcomeView(props: { setViewType: (v: ViewType) => void}): ReactElement
         <div className="flex flex-col flex-nowrap flex-grow my-4 mx-8 signup__content signup__welcome">
             <div className="flex flex-row items-center justify-center my-4">
                 <div className="text-xl mr-2">👋</div>
-                <div className="text-xl font-semibold">Welcome to Autism!</div>
+                <div className="text-xl font-semibold">Welcome to Zkitter!</div>
             </div>
             <div className="my-4">
-                Autism is a decentralized social network built on top of Ethereum. By signing up, you will be able to follow people on Autism and make posts.
+            Zkitter is a decentralized social network built on top of Ethereum. By signing up, you will be able to follow people on Zkitter and make posts.
             </div>
             <div className="my-4">
                 In the next few steps, we'll guide you through the process.
@@ -776,7 +776,7 @@ function DoneView(props: { setViewType: (v: ViewType) => void}): ReactElement {
                 <div className="text-xl font-semibold">Signup is completed! </div>
             </div>
             <div className="my-4">
-                If you have any suggestions or issues, please join and report in our <a href="https://discord.com/invite/GVP9MghwXc" target="_blank">Discord</a>. Hope you enjoy using Auti.sm :)
+                If you have any suggestions or issues, please join and report in our <a href="https://discord.com/invite/GVP9MghwXc" target="_blank">Discord</a>. Hope you enjoy using Zkitter :)
             </div>
             <div className="flex-grow flex flex-row mt-8 flex-nowrap items-end justify-end">
                 <Button

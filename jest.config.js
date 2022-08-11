@@ -6,12 +6,12 @@ module.exports = {
   collectCoverageFrom: ['src/**/*.{ts,tsx}'],
   coverageDirectory: 'coverage',
   testPathIgnorePatterns: [
-      '/node_modules/',
-      '/build/',
-      '/build-test/',
-      '/static/',
-      '/src/util/message.ts',
-      '/src/util/svc.ts',
+    '/node_modules/',
+    '/build/',
+    '/build-test/',
+    '/static/',
+    '/src/util/message.ts',
+    '/src/util/svc.ts',
   ],
   roots: ['<rootDir>/src'],
   verbose: true,
@@ -36,7 +36,7 @@ module.exports = {
           <link href="https://unpkg.com/tailwindcss@2.2.11/dist/tailwind.min.css" rel="stylesheet">
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
           <link rel="icon" type="image/svg+xml" href="/favicon.png">
-          <title>Auti.sm</title>
+          <title>Zkitter.com</title>
       </head>
       <body>
       <script>
